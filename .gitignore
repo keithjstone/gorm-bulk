@@ -137,3 +137,5 @@ tags
 [._]*.un~
 
 # End of https://www.gitignore.io/api/macOS,vim,intellij+all
+
+.vscode

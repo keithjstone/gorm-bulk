@@ -159,6 +159,10 @@ func (p *Parser) findStructTypes(f *ast.File) {
 			continue
 		}
 
+		if gdecl.Doc == nil {
+			continue
+		}
+
 		var hasGoGenerate bool
 
 		for _, doc := range gdecl.Doc.List {
